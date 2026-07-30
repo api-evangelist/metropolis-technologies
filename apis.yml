@@ -1,8 +1,29 @@
 aid: metropolis-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metropolis-technologies.png
 name: Metropolis Technologies
-description: 'Metropolis Technologies is a company surfaced as a portfolio company of dragoneer and added
-  to the API Evangelist network as a stub for enrichment. Sector: artificial-intelligence. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Metropolis Technologies is an AI-powered recognition platform that uses computer
+  vision to make real-world physical spaces responsive, best known as the largest
+  U.S. parking operator with checkout-free parking across 4,200+ North American
+  locations. Founded in 2017, the company powers what it calls the "Recognition
+  Economy" — vehicles are recognized on entry and exit so members pay automatically
+  without tickets, gates, or lines. Metropolis scaled through the acquisitions of
+  Premier Parking (2022) and SP Plus Corporation (2024), raised $1.6 billion in
+  financing in 2025, and was named a TIME100 Most Influential Company of 2026. It
+  is backed by Dragoneer. No public developer API, OpenAPI specification, or SDK
+  surface has been identified; this profile captures the company's public identity
+  and security/compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/metropolis-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
+- Computer Vision
+- Parking
+- Payments
+- Mobility
+- Recognition
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.metropolis.io
+- type: Support
+  url: https://www.metropolis.io/help
+- type: Blog
+  url: https://www.metropolis.io/blog
+- type: TermsOfService
+  url: https://www.metropolis.io/terms
+- type: PrivacyPolicy
+  url: https://www.metropolis.io/privacy
+- type: TrustCenter
+  url: security/metropolis-technologies-trust-center.yml
+- type: Compliance
+  url: https://trust.metropolis.io/
+- type: DomainSecurity
+  url: security/metropolis-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
