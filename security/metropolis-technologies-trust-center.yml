@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.metropolis.io/
+url: https://trust.metropolis.io/
+certifications:
+- SOC 2
+- PCI DSS
+evidence:
+- source: https://trust.metropolis.io/
+  keywords:
+  - soc 2
+  - pci dss
+  - pci-dss
+  - trust center
