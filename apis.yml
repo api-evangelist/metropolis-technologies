@@ -48,7 +48,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Parking
 - Payments
 - Mobility
@@ -61,6 +61,7 @@ tags_raw:
 - Payments
 - Mobility
 - Recognition
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
