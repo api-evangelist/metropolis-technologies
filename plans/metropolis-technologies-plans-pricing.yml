@@ -1,0 +1,48 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.metropolis.io/pricing
+sources:
+- https://www.metropolis.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Parking asset management pricing per parking space per month; zero hardware cost stated. Top tier
+  custom/invite-only.
+plan_count: 4
+currency: USD
+plans:
+- name: Scan
+  price_text: Starting at $0 space/month
+  price: 0
+  currency: USD
+  period: month
+  unit: space
+  included_quota: Ideal for surface lots; No equipment required; Pay via QR code; Financial reporting;
+    Orion computer vision
+- name: Vision
+  price_text: Starting at $15 space/month
+  price: 15
+  currency: USD
+  period: month
+  unit: space
+  included_quota: Best for garages; Drive-in, drive-out; Seamless payment; Analytics portal; Orion computer
+    vision; Gate access control
+- name: Vision+
+  price_text: Custom Pricing
+  period: none
+  included_quota: Custom solutions; Nested zones; Orion computer vision; Custom analytics; Gate access
+    control; Door access control
+- name: The M1 Program
+  price_text: By invite only
+  period: none
+  included_quota: Everything in the Vision+ plan, plus multi-building management, customized dashboards,
+    priority operational support, dedicated account team, access to product development
