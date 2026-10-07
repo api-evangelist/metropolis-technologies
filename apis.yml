@@ -69,6 +69,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.metropolis.io/pricing
+- type: Plans
+  url: plans/metropolis-technologies-plans-pricing.yml
 - url: https://www.metropolis.io/blog?format=rss
   type: BlogRSS
 - type: Website
