@@ -46,3 +46,41 @@ plans:
   period: none
   included_quota: Everything in the Vision+ plan, plus multi-building management, customized dashboards,
     priority operational support, dedicated account team, access to product development
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Scan
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Vision
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Vision+
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: The M1 Program
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
